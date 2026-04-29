@@ -5,23 +5,23 @@ class Mneme < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/tr0mb1r/mneme/releases/download/v0.2.2/mneme-0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "7c1967b3fecd9f6b0cd714a0b9ff9a2befa13ba1ff88b40a852452faf10fa5f7"
+      url "https://github.com/tr0mb1r/mneme/releases/download/v0.2.3/mneme-0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "bb9bcd370ee411a5b783432910dbd84b4ab53d6e6b1e30012ae4f972b9adc9cc"
     end
     on_intel do
-      url "https://github.com/tr0mb1r/mneme/releases/download/v0.2.2/mneme-0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "01bed71eb871cbd4b102d3109d3f49d8f3396b06cdae5787359fa3982e474396"
+      url "https://github.com/tr0mb1r/mneme/releases/download/v0.2.3/mneme-0.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "3535545b63fe4b264dfc9b42c1639ac141272ebb01d6fec90e37bda7ee803cd3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tr0mb1r/mneme/releases/download/v0.2.2/mneme-0.2.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "385871630eb96c4c475825a18e3301813b38aed656dbd8aca021ec4b317d45fa"
+      url "https://github.com/tr0mb1r/mneme/releases/download/v0.2.3/mneme-0.2.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "abd582824e700caafdebc628033ae382f424f2cbd4b4c03b256c1ebcbb6c774b"
     end
     on_intel do
-      url "https://github.com/tr0mb1r/mneme/releases/download/v0.2.2/mneme-0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b24f9d520c21db9f05109c321779b8e0e90363d9158e79ea430d20a8e3ea2b33"
+      url "https://github.com/tr0mb1r/mneme/releases/download/v0.2.3/mneme-0.2.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "be2affcbf4da852cb18eea11de1f526898289dbac3d6bbecddac0f9f28fddd14"
     end
   end
 
