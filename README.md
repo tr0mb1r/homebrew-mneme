@@ -30,7 +30,7 @@ The first run downloads the embedding model (~1.5 GB for the default `bge-m3`, ~
 | Linux | aarch64 | `aarch64-unknown-linux-musl` (musl-static, glibc-portable) |
 | Linux | x86_64 | `x86_64-unknown-linux-musl` (musl-static, glibc-portable) |
 
-Windows is not distributed via Homebrew. Windows users can grab `mneme-<version>-x86_64-pc-windows-msvc.zip` from the [GitHub Releases](https://github.com/tr0mb1r/mneme/releases) page.
+mneme supports Linux and macOS only (Windows support was dropped in 1.6.0; on Windows, use WSL2).
 
 ## Upgrading
 
